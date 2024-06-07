@@ -2101,20 +2101,20 @@ textarea.w-input, textarea.w-select {
   --headlines: Larken, sans-serif;
   --bg: #fcfaf4;
   --text-10: white;
-  --heart-dark: #184363;
-  --heart: #b8cedc;
+  --heart-dark: #000;
+  --heart: #add8e6;
   --text-40: var(--givingli-black);
   --givingly-white: #fcfcfc;
   --creativity: #c3b2e7;
   --creativity-dark: #52225e;
   --passion: #f682a5;
   --passion-dark: #52225e;
-  --balance: #c9da8f;
-  --balance-dark: #1c471f;
-  --joy: #fedf6f;
-  --joy-dark: #4a411e;
-  --warmth: #f9a474;
-  --warmth-dark: #582614;
+  --balance: #ffc0cb;
+  --balance-dark: #000;
+  --joy: #4b0082;
+  --joy-dark: #fff;
+  --warmth: #fffdd0;
+  --warmth-dark: #000;
   --givingli-black: #333;
   --empathy: #fcfaf4;
   --energy: #f36464;
@@ -4132,7 +4132,7 @@ ul {
 
 .footer-cta-wrapper {
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   border-radius: 2rem;
   flex-direction: column;
   justify-content: space-between;
@@ -4141,6 +4141,26 @@ ul {
   display: flex;
   position: relative;
   overflow: hidden;
+}
+.mobile-video-container {
+  display: none;
+}
+.footer-cta-wrapper video {
+  width: 100%;
+  height: 100%;
+ 
+  }
+.video-container {
+     display: block;
+  }
+@media (max-width: 768px) {
+  .video-container {
+     display: none;
+  }
+  .mobile-video-container {
+  display: block;
+}
+
 }
 
 .footer-cta-wrapper.pink {
