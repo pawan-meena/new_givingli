@@ -2452,6 +2452,7 @@ ul {
 
 .section.footer-cta, .section.terms {
   padding-top: 10rem;
+  padding-bottom: 0px;
 }
 
 .section.full-height {
