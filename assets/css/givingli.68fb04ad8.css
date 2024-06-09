@@ -4434,6 +4434,7 @@ ul {
 }
 
 .footer-logo-bg-wrapper {
+  background-color: #000;
   z-index: 0;
   width: 100%;
   padding-bottom: 100%;
