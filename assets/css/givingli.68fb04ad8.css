@@ -4143,6 +4143,7 @@ ul {
   overflow: hidden;
 }
 .mobile-video-container {
+  width: 100%;
   display: none;
 }
 .footer-cta-wrapper video {
