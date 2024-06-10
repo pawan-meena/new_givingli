@@ -4300,7 +4300,7 @@ ul {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-rows: 2fr 1fr;
-  grid-template-columns: 5fr 5fr 2fr;
+  
   grid-auto-columns: 1fr;
   display: grid;
 }
