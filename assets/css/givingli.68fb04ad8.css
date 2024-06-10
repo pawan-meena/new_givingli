@@ -4285,6 +4285,7 @@ ul {
   padding-bottom: 10rem;
   display: flex;
   position: relative;
+  background: rgb(230, 230, 250);
 }
 
 .footer-logo-bg {
@@ -4436,9 +4437,9 @@ ul {
 }
 
 .footer-logo-bg-wrapper {
-  background-color: #000;
+
   z-index: 0;
-  width: 100%;
+  /* width: 100%; */
   padding-bottom: 100%;
   position: absolute;
   bottom: 0;
